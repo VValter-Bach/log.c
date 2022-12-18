@@ -77,6 +77,20 @@ Returns the name of the given log level as a string.
 If the library is compiled with `-DLOG_USE_COLOR` ANSI color escape codes will
 be used when printing.
 
+## Install
+
+To install log.c lib just run:
+
+```bash
+make
+sudo make install
+```
+
+For uninstalling just run:
+
+```bash
+sudo make uninstall
+```
 
 ## License
 This library is free software; you can redistribute it and/or modify it under
